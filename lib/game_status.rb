@@ -69,4 +69,3 @@ end
 
 def over?(board)
   if full?(board) && ( !won?(board) or won?(board))
-  
