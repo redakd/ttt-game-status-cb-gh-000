@@ -21,7 +21,7 @@ end
     colone3  = 2
     ligne = 0
     count = 0
-    while nb4 <= 8
+    while ligne <= 8
 
     position1 = WIN_COMBINATIONS[ligne][colone1]
     position2 = WIN_COMBINATIONS[ligne][colone2]
