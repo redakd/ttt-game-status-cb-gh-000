@@ -39,3 +39,6 @@ end
     ligne += 1
   end
 end
+
+def full?(board)
+  board.each do |values|
