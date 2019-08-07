@@ -36,6 +36,6 @@ end
           return false
         end
       end
-    nb4 += 1
+    ligne += 1
   end
 end
