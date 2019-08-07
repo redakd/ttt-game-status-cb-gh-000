@@ -14,11 +14,6 @@ end
   [0, 4, 8],
   [2, 4, 6]
   ]
-  def verify(count)
-    if count == 8
-       return false
-    end
-  end
 
   def won?(board)
     nb1 = 0
