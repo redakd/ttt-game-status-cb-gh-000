@@ -36,8 +36,11 @@ end
         number = 9
         return WIN_COMBINATIONS.fetch(nb4)
       elsif position_1 == "0" && position_2 == "O" && position_3 == "O"
+        number = 9
         return WIN_COMBINATIONS.fetch(nb4)
       else
+        number = 9
+
         false
       end
     nb4 += 1
