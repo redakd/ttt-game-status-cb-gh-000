@@ -80,7 +80,7 @@ def winner(board)
     positions = won?(board)
     position = positions[0]
     winner = board[position]
-  puts winner
+  return winner
 else
   return nil
 end
