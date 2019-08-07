@@ -5,10 +5,9 @@ end
 
 def boole(number)
   if number == 1
-    return true
+    return false
   else
-    return
-    false
+    return true
   end
 end
 # Define your WIN_COMBINATIONS constant
