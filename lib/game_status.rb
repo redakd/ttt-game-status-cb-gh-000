@@ -16,7 +16,10 @@ end
   ]
 
   def won?(board)
-    nb1 = 0, nb2 = 1, nb3 = 2, nb4 = 0
+    nb1 = 0
+    nb2 = 1
+    nb3 = 2
+    nb4 = 0
 
     while nb4 <= 8
 
