@@ -77,8 +77,8 @@ end
 
 def winner(board)
   if won?(board)
-  positions = won?(board)
-  position = positions[0]
-  winner = board[position]
+    positions = won?(board)
+    position = positions[0]
+    winner = board[position]
   puts winner
 end
