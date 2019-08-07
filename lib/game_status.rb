@@ -41,6 +41,7 @@ end
 end
 
 def full?(board)
+  count = 0
   board.each do |values|
     if values == "X" or values == "O"
       count += 1
@@ -50,4 +51,5 @@ def full?(board)
   else
     return false
   end
+end
 end
