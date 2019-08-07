@@ -37,7 +37,7 @@ end
       elsif position_1 == "0" && position_2 == "O" && position_3 == "O"
         return WIN_COMBINATIONS.fetch(nb4)
       else
-        false
+        return nil
       end
     nb4 += 1
     number += 1
