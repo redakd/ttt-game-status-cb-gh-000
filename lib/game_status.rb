@@ -75,7 +75,7 @@ def over?(board)
     end
 end
 
-def winner?(board)
+def winner(board)
   positions = won?(board)
   position = array[0]
 
