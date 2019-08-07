@@ -63,3 +63,6 @@ def draw?(board)
       return false
     end
   else
+    return false
+  end
+end
