@@ -34,6 +34,6 @@ end
       end
     nb4 += 1
   end
-  if count == 8 
+  if count == 8
     return false
 end
