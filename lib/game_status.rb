@@ -76,5 +76,7 @@ def over?(board)
 end
 
 def winner?(board)
-  array = won?(board)
-  array1 = array[0]
+  positions = won?(board)
+  position = array[0]
+
+  puts "the winner is : #{board[position]}"
