@@ -27,10 +27,6 @@ end
     position2 = WIN_COMBINATIONS[nb4][nb2]
     position3 = WIN_COMBINATIONS[nb4][nb3]
 
-    position_1 = board[position1] # load the value of the board at win_index_1
-    position_2 = board[position2] # load the value of the board at win_index_1
-    position_3 = board[position3] # load the value of the board at win_index_1
-
       if board[position1] == "X" && board[position2] == "X" && board[position3] == "X"
         return WIN_COMBINATIONS.fetch(nb4)
       else
