@@ -82,6 +82,6 @@ def winner(board)
     winner = board[position]
   puts winner
 else
-  return false
+  return nill
 end
 end
