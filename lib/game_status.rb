@@ -37,6 +37,5 @@ end
         return false
       end
     nb4 += 1
-    number += 1
   end
 end
