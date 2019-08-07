@@ -40,7 +40,6 @@ end
         return WIN_COMBINATIONS.fetch(nb4)
       else
         number = 9
-
         false
       end
     nb4 += 1
