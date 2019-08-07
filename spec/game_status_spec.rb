@@ -20,7 +20,7 @@ describe "./lib/game_status.rb" do
     it 'returns falsey for an empty board' do
       board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-      expect(won?(board)).to be_falsey
+      expect(won?(board)).to  eq("false")
     end
 
     it 'returns falsey for a draw' do
