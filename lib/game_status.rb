@@ -37,8 +37,10 @@ end
         nb4 = 9
       else
         count += 1
-        return verify(count)
       end
     nb4 += 1
+  end
+  if count == 8
+     return false
   end
 end
