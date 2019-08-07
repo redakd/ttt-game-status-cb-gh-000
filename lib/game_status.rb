@@ -37,7 +37,7 @@ end
         nb4 = 9
       else
         count += 1
-        verify(count)
+        return verify(count)
       end
     nb4 += 1
   end
