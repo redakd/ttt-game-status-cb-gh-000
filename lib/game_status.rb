@@ -76,6 +76,7 @@ def over?(board)
 end
 
 def winner(board)
+  if won?(board)
   positions = won?(board)
   position = positions[0]
   winner = board[position]
