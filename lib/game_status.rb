@@ -79,5 +79,5 @@ def winner?(board)
   positions = won?(board)
   position = array[0]
 
-  puts board[position]
+  return board[position]
 end
