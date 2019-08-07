@@ -27,7 +27,7 @@ end
     position2 = WIN_COMBINATIONS[nb4][nb2]
     position3 = WIN_COMBINATIONS[nb4][nb3]
 
-      if board[position1] == "X" && board[position2] == "X" && board[position3] == "X"
+      if board[position1] == "X" && board[position2] == "X" && board[position3] == "X" or ( board[position1] == "O" && board[position2] == "O" && board[position3] == "O" )
         return WIN_COMBINATIONS.fetch(nb4)
       else
          false
