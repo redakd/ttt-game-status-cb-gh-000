@@ -28,7 +28,7 @@ end
     position3 = WIN_COMBINATIONS[ligne][colone3]
 
       if board[position1] == "X" && board[position2] == "X" && board[position3] == "X" or ( board[position1] == "O" && board[position2] == "O" && board[position3] == "O" )
-        return WIN_COMBINATIONS.fetch(nb4)
+        return WIN_COMBINATIONS.fetch(ligne)
         nb4 = 9
       else
         count += 1
