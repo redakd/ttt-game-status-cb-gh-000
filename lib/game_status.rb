@@ -40,8 +40,9 @@ end
   end
 end
 
-def won1?(board)
+def won1?()
   count = 0
+  puts "hlo"
     WIN_COMBINATIONS.each do |cln1 ,cln2 , cln3 |
       puts cln1
       puts cln2
