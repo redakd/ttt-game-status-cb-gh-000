@@ -32,7 +32,9 @@ end
         nb4 = 9
       else
         count += 1
-        puts count
+        if count == 8 
+          return false
+        end
       end
     nb4 += 1
   end
