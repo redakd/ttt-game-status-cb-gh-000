@@ -30,7 +30,6 @@ end
       if board[position1] == "X" && board[position2] == "X" && board[position3] == "X" or ( board[position1] == "O" && board[position2] == "O" && board[position3] == "O" )
         return WIN_COMBINATIONS.fetch(nb4)
       else
-          number = 9
           false
       end
     nb4 += 1
