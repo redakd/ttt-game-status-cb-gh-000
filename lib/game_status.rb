@@ -17,7 +17,7 @@ end
   def verify(count)
     if count == 8
        return false
-     else 
+     else
        return true
     end
   end
