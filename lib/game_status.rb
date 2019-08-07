@@ -77,7 +77,7 @@ end
 
 def winner(board)
   positions = won?(board)
-  position = array[0]
+  position = positions[0]
   winner = board[position]
   puts winner
 end
