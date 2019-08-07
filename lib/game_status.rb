@@ -84,3 +84,4 @@ def winner(board)
 else
   !won?(board)
 end
+end
