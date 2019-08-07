@@ -35,7 +35,7 @@ end
       if board[position1] == "X" && board[position2] == "X" && board[position3] == "X"
         return WIN_COMBINATIONS.fetch(nb4)
       else
-        false
+        return false
       end
     nb4 += 1
     number += 1
