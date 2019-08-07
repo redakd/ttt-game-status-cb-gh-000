@@ -21,7 +21,7 @@ end
     nb3 = 2
     nb4 = 0
 
-    while number <= 8
+    while nb4 <= 8
 
     position1 = WIN_COMBINATIONS[nb4][nb1]
     position2 = WIN_COMBINATIONS[nb4][nb2]
