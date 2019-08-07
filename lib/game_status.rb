@@ -78,6 +78,6 @@ end
 def winner(board)
   positions = won?(board)
   position = array[0]
-
-  return board[position]
+  winner = board[position]
+  puts winner
 end
