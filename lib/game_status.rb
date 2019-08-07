@@ -19,7 +19,7 @@ end
     colone1 = 0
     colone2 = 1
     colone3  = 2
-    nb4 = 0
+    ligne = 0
     count = 0
     while nb4 <= 8
 
