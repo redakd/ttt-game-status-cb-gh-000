@@ -43,6 +43,8 @@ end
 def won1?(board)
   count = 0
     WIN_COMBINATIONS.each do |cln1 ,cln2 , cln3 |
-      puts cln1
+      puts cln1 
+      puts cln2 
+      puts cln3
   end
 end
