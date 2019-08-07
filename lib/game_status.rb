@@ -81,6 +81,6 @@ def winner(board)
     position = positions[0]
     winner = board[position]
   puts winner
-else 
+else
   !won?(board)
 end
