@@ -37,6 +37,7 @@ end
         nb4 = 9
       else
         count += 1
+        puts count
       end
     nb4 += 1
   end
