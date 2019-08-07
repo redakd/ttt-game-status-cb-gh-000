@@ -38,8 +38,7 @@ end
         return WIN_COMBINATIONS.fetch(nb4)
       else
         count += 1
-        puts count
-        verify(count)
+        verify(8)
       end
     nb4 += 1
   end
