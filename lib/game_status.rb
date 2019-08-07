@@ -46,7 +46,7 @@ def full?(board)
       count += 1
     end
   end
-  if count == 8 
+  if count == 8
     return true
   else
     return false
