@@ -3,6 +3,14 @@ def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
 
+def boole(number)
+  if number == 1 
+    return true
+  else
+    return
+    false 
+  end
+end
 # Define your WIN_COMBINATIONS constant
   WIN_COMBINATIONS = [
   [0, 1, 2],
