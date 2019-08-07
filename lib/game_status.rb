@@ -34,8 +34,6 @@ end
 
       if board[position1] == "X" && board[position2] == "X" && board[position3] == "X"
         return WIN_COMBINATIONS.fetch(nb4)
-      elsif position_1 == "0" && position_2 == "O" && position_3 == "O"
-        return WIN_COMBINATIONS.fetch(nb4)
       else
         return nil
       end
