@@ -16,7 +16,6 @@ end
   ]
 
   def won?(board)
-    number = 0
     nb1 = 0
     nb2 = 1
     nb3 = 2
