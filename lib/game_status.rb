@@ -20,7 +20,7 @@ end
     nb2 = 1
     nb3 = 2
     nb4 = 0
-
+    count = 0
     while nb4 <= 8
 
     position1 = WIN_COMBINATIONS[nb4][nb1]
