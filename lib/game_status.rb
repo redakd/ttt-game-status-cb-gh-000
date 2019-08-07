@@ -46,7 +46,7 @@ def full?(board)
     if values == "X" or values == "O"
       count += 1
     end
-  if count == 8
+  if count == 9
     return true
   else
     return false
