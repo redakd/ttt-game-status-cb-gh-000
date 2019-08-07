@@ -45,7 +45,7 @@ def won1?(board)
     WIN_COMBINATIONS.each do |cln1 ,cln2 , cln3 |
       puts cln1
     if board[cln1] == "X" && board[cln2] == "X" && board[cln3] == "X" or ( board[cln1] == "O" && board[cln2] == "O" && board[cln3] == "O" )
-      return WIN_COMBINATIONS.fetch(count)
+      return true
     else
       count += 1
       if count == 8
