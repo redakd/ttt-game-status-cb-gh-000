@@ -34,8 +34,8 @@ end
 
       if position_1 == "X" && position_2 == "X" && position_3 == "X"
         return WIN_COMBINATIONS.fetch(nb4)
-      elsif
-        position_1 == "0" && position_2 == "O" && position_3 == "O"
+      elsif position_1 == "0" && position_2 == "O" && position_3 == "O"
+        return WIN_COMBINATIONS.fetch(nb4)
       else
         false
       end
