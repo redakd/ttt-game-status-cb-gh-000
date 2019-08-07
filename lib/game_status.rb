@@ -32,9 +32,9 @@ end
     position_2 = board[position2] # load the value of the board at win_index_1
     position_3 = board[position3] # load the value of the board at win_index_1
 
-      if position_1 == "X" && position_2 == "X" && position_3 == "X"
+      if position_1 == "X" && position_2 == "X" && position_3 == "X" 
         return WIN_COMBINATIONS.fetch(nb4)
-      else
+      elsif position_1 == "0" && position_2 == "O" && position_3 == "O" 
         false
       end
     nb4 += 1
