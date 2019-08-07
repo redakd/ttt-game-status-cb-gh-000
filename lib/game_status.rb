@@ -80,3 +80,4 @@ def winner?(board)
   position = array[0]
 
   puts "the winner is : #{board[position]}"
+end
