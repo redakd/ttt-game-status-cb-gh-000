@@ -16,16 +16,16 @@ end
   ]
 
   def won?(board)
-    nb1 = 0
-    nb2 = 1
-    nb3 = 2
+    colone1 = 0
+    colone2 = 1
+    colone3  = 2
     nb4 = 0
     count = 0
     while nb4 <= 8
 
-    position1 = WIN_COMBINATIONS[nb4][nb1]
-    position2 = WIN_COMBINATIONS[nb4][nb2]
-    position3 = WIN_COMBINATIONS[nb4][nb3]
+    position1 = WIN_COMBINATIONS[ligne][colone1]
+    position2 = WIN_COMBINATIONS[ligne][colone2]
+    position3 = WIN_COMBINATIONS[ligne][colone3]
 
       if board[position1] == "X" && board[position2] == "X" && board[position3] == "X" or ( board[position1] == "O" && board[position2] == "O" && board[position3] == "O" )
         return WIN_COMBINATIONS.fetch(nb4)
