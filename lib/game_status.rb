@@ -15,7 +15,7 @@ end
   [2, 4, 6]
   ]
   def verify(count)
-    if count == 8 
+    if count == 8
       return false
     end
   end
