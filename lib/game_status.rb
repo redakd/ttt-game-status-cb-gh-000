@@ -33,9 +33,9 @@ end
     position_3 = board[position3] # load the value of the board at win_index_1
 
       if board[position1] == "X" && board[position2] == "X" && board[position3] == "X"
-        WIN_COMBINATIONS.fetch(nb4)
+        return WIN_COMBINATIONS.fetch(nb4)
       else
-         false
+        false
       end
     nb4 += 1
     number += 1
