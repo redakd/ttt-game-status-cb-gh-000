@@ -34,7 +34,6 @@ end
 
       if position_1 == "X" && position_2 == "X" && position_3 == "X"
         return WIN_COMBINATIONS.fetch(nb4)
-
       else
         false
       end
